@@ -1,0 +1,30 @@
+{
+  "configuration": {
+    "level": 3,
+    "block_bytes": 8388608,
+    "decode_repeats": 3,
+    "zstd_version": "1.5.5"
+  },
+  "groups": {
+    "canonical_mutable_raw_zstd": {
+      "container_prefix_and_header_bytes": 126435,
+      "required_immutable_reference_file_bytes": 0,
+      "side_metadata_bytes": 0
+    },
+    "canonical_mutable_xor_base_zstd": {
+      "container_prefix_and_header_bytes": 126651,
+      "required_immutable_reference_file_bytes": 13891564088,
+      "side_metadata_bytes": 0
+    },
+    "direct_patch_zstd": {
+      "container_prefix_and_header_bytes": 673183,
+      "required_immutable_reference_file_bytes": 0,
+      "side_metadata_bytes": 1078975
+    },
+    "shared_patch_zstd": {
+      "container_prefix_and_header_bytes": 297485,
+      "required_immutable_reference_file_bytes": 0,
+      "side_metadata_bytes": 581377
+    }
+  }
+}

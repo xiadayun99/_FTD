@@ -1,0 +1,14 @@
+% Recomputed from the fixed-peer GPU replay records.
+\begin{tabular}{@{}rcccc@{}}
+\toprule
+ & \multicolumn{2}{c}{GSM8K} & \multicolumn{2}{c}{DialogSum} \\
+\cmidrule(lr){2-3}\cmidrule(l){4-5}
+Cycles & Seq.\ diff. & Correct & Seq.\ diff. & ROUGE-L F1 \\
+\midrule
+0   & 0  & 101 & 0 & 0.3720 \\
+2   & 8  & 100 & 7 & 0.3729 \\
+8   & 5  & 101 & 9 & 0.3738 \\
+32  & 8  & 101 & 5 & 0.3727 \\
+128 & 10 & 100 & 7 & 0.3721 \\
+\bottomrule
+\end{tabular}

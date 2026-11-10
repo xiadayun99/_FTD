@@ -1,0 +1,22 @@
+% Recomputed from the frozen formal generation traces.
+\begin{tabular}{@{}lrrcrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{Exact sequence} & Quality & TTFT & End-to-end & Bank & Peak \\
+\cmidrule(lr){2-3}
+Method & Block 1 & Block 2 & (B1 / B2) & (ms) & (s) & (GiB) & (GiB) \\
+\midrule
+\multicolumn{8}{@{}l}{\textbf{GSM8K}} \\
+Host copy & 128 & 128 & 101 / 101 & 1125.9 & 2.600 & 0.00 & 15.36 \\
+Incremental & 122 & 119 & 100 / 100 & 40.3 & 1.499 & 0.00 & 15.65 \\
+Direct & 128 & 128 & 101 / 101 & 62.8 & 1.531 & 10.28 & 25.94 \\
+Shared & 128 & 128 & 101 / 101 & 64.2 & 1.516 & 5.36 & 21.01 \\
+HF Native & 123 & 123 & 101 / 101 & 39.2 & 2.640 & 0.00 & 15.50 \\
+\midrule
+\multicolumn{8}{@{}l}{\textbf{DialogSum}} \\
+Host copy & 128 & 128 & 0.3720 / 0.3720 & 1131.7 & 1.682 & 0.00 & 15.44 \\
+Incremental & 121 & 122 & 0.3713 / 0.3758 & 44.8 & 0.593 & 0.00 & 15.72 \\
+Direct & 128 & 128 & 0.3720 / 0.3720 & 67.4 & 0.615 & 10.28 & 26.02 \\
+Shared & 128 & 128 & 0.3720 / 0.3720 & 68.8 & 0.618 & 5.36 & 21.09 \\
+HF Native & 121 & 121 & 0.3726 / 0.3726 & 40.1 & 1.016 & 0.00 & 15.58 \\
+\bottomrule
+\end{tabular}

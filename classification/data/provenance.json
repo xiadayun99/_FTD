@@ -1,0 +1,52 @@
+{
+  "paper": "FTD: Target-Shared Corrections for Canonical LoRA Switching",
+  "release_date": "2026-11-09",
+  "data_projection": "Original timings, labels, candidate scores, and resource measurements with public query and boot aliases.",
+  "validated_archive_manifest_entries": {
+    "confirmation": 769,
+    "frequency": 872,
+    "zstd": 7,
+    "confirmation_source": 39,
+    "frequency_source": 39
+  },
+  "original_archives_sha256": {
+    "confirmation": "e204e673b1175eff85262e76fdb73cd3318e5be40cfd316da9f12fecbda95c6e",
+    "frequency": "2749f66a294261ab9d36813dea9c8ab8de1e570312211d642897788ddffd4e66",
+    "zstd": "1751edb6a6b74c9713866c0d5856edea756d2f51ddc88db50a7e10322cc7d129",
+    "standalone_build": "81c51f8fc2603f50446923dfaf4aec59fc3c345de6dbdae73fc5a740502d851c"
+  },
+  "measurement_runtime": {
+    "torch": "2.10.0+cu128",
+    "cuda": "12.8",
+    "triton": "3.6.0",
+    "transformers": "4.57.6",
+    "peft": "0.19.1",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+    "capability": [
+      12,
+      0
+    ],
+    "driver": "580.173.02",
+    "attention_implementation": "eager",
+    "cublas_workspace": ":4096:8",
+    "fp16_reduced_precision_reduction": false
+  },
+  "formal_worker_gpu_samples": {
+    "confirmation": 9819,
+    "frequency": 9882
+  },
+  "frequency_exclusions": {
+    "gpu_isolation_failures": 14,
+    "older_sigsegv": 1
+  },
+  "frequency_audit_status": "LOCAL_AUDIT_PASSED",
+  "reference_requests": 384,
+  "verified_cohort": {
+    "confirmation_switches": 136,
+    "frequency_switches": {
+      "low": 2,
+      "medium": 47,
+      "high": 383
+    }
+  }
+}

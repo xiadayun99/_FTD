@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & Mean (ms) & P95 (ms) & Parameter (ms) & Score (ms) & Payload (GiB) & Fixed (GiB) & Allocated peak (GiB)\\
+\midrule
+Shared target & 47.582 & 85.414 & 15.305 & 31.606 & 5.403 & 20.944 & 22.765\\
+Direct & 47.093 & 84.543 & 14.792 & 31.623 & 10.335 & 25.876 & 27.702\\
+Node & 57.674 & 114.405 & 25.381 & 31.611 & 5.118 & 20.517 & 22.385\\
+HF native & 44.888 & 58.642 & 3.655 & 40.550 & 0.000 & 15.399 & 17.201\\
+Host copy & 426.227 & 1154.344 & 393.616 & 31.798 & 0.000 & 15.256 & 17.061\\
+\bottomrule
+\end{tabular}

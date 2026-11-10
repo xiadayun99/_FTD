@@ -1,0 +1,51 @@
+{
+  "model_id": "Qwen/Qwen3-8B",
+  "model_files_sha256": {
+    "model-00001-of-00005.safetensors": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+    "model-00002-of-00005.safetensors": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+    "model-00003-of-00005.safetensors": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+    "model-00004-of-00005.safetensors": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+    "model-00005-of-00005.safetensors": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+    "generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "config.json": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "model.safetensors.index.json": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "reference_run_files_sha256": {
+    "artifacts/references/metadata.json": "f17f935b8e28bcb4b9917f4b54f750c83c13399c91483ec63668cd3e278c647e",
+    "artifacts/references/base.json": "d4e16dedc6c3f67aca5130f17a9c045e13b2e2ab33905ab2ba9a137ac28171f5",
+    "artifacts/references/mrpc.json": "3fcbc537958f31bb66c82880c823a7dccc5f2aca6331e2a0c959fbb138ea0881",
+    "trained/lora/mrpc/adapter_config.json": "0c29806c8a291cf3666fa1a21478c8e587408ffb8ff0abe38c2942904b5c30f1",
+    "artifacts/references/qnli.json": "1d03e3fb238f87b920fef3209a62c2f185b782ba3ae3fc0bd9164813a9c6dba8",
+    "trained/lora/qnli/adapter_config.json": "ca83011bef850e3eafc81017aad46558d1115f9e1e1db15af6378c47f9f837ef",
+    "artifacts/references/agnews.json": "f51b57f8664f5573a641c3181e7c7f33db73d61ea4ee8f14abcfc0bfb8a6bcfa",
+    "trained/lora/agnews/adapter_config.json": "cc702429e8b75fd53ba33799c14c6b39f74ff945d5c0aabeae56ebaa016a0f8e",
+    "artifacts/references/mrpc.safetensors": "0cbdbdf4ae4ea7062e4fd134dfecbb26188ef2bb6cb40ed18970cf107c4597dd",
+    "artifacts/references/qnli.safetensors": "9333913ffc98db67dac03c5ac18eca3c1e6c6425f7fd83e4fcc2dc67a65d2562",
+    "artifacts/references/agnews.safetensors": "9f8d5809befdf39df3c8b0efa36cf7a8f435ae490d4604efc40ecff7c9c2a4b3",
+    "artifacts/references/base.safetensors": "c0d878f5b8a715785a172076c1de6729f75adf0b21e3f64b927b37dcfec2188d",
+    "trained/lora/mrpc/adapter_model.safetensors": "785a9ad63d8cba51e0bcf3f0e49f18ad83edbe43fa866aa4dd9e5bad8b7d0508",
+    "trained/lora/qnli/adapter_model.safetensors": "10a57b79d829d553b811e902c4176ff2645951a787632beb5a4514deb68f691c",
+    "trained/lora/agnews/adapter_model.safetensors": "54020f3e905b767958e13eafa3321311bceea203884977e498695fc7916c9659"
+  },
+  "workload_sha256": "fe555890de0493929c89f28f396241170f498816f463f452be86777ae15da1a8",
+  "tasks": [
+    "mrpc",
+    "qnli",
+    "agnews"
+  ],
+  "training_data_sha256": {
+    "data/agnews_eval.jsonl": "35d7c868901fbc8e64c68b758268b5390a57b73667e83c205ee4d66ad5bee58c",
+    "data/agnews_policy_dev.jsonl": "dbd24c45750e22c30749813cd860ff47e73bd7c95767f671596cdd536d31cc91",
+    "data/agnews_train.jsonl": "f1380aac531172f50619ac0b5a858b63150ab8dd7272809ae5f6e729773d24dd",
+    "data/mrpc_eval.jsonl": "3a55ce7ae741c2ada28ef1f24271ab3208207ae11f5b63a64cee47f18210cb01",
+    "data/mrpc_policy_dev.jsonl": "37dc82ae610b787f28bbf70741a2a5cad6654f4ea433032c807bac451501d239",
+    "data/mrpc_train.jsonl": "4ea19fb4a4c2f77d3473bac0a7c8ae0b86c918bd3d489affdc26fec34847bbb6",
+    "data/qnli_eval.jsonl": "367a6e1a98ce749dec803bb67a43e051a9ea9cee7817add227a612fe148bdff3",
+    "data/qnli_policy_dev.jsonl": "41802c1bc910cd27f131607032aeb1b8e5ea230f1b32efc9eb3a95868575156e",
+    "data/qnli_train.jsonl": "d7a6946ae9f10c1a293c042180010003a67dce5917a4005fb2c5a20336afccca"
+  }
+}

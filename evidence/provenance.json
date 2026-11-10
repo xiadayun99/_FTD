@@ -1,0 +1,24 @@
+{
+  "gsm8k": {
+    "source_archive_sha256": "2a9f431eaeca441a9f1e7134a6b9ca1f88693c04a00383c4e0852e9f7e913a9d",
+    "measured_release_manifest_sha256": "f05fd67280d70aee433a3fdbeae2b6778fba6326b55f7b14e01613e01716bc25",
+    "public_release_manifest_sha256": "29c0771f0f47c7602f2d55983d7112bed262cf5b6a53d213d445e36bdccbca79",
+    "files_changed_for_public_entry": [
+      "START_HERE_zh.md",
+      "run_generation.py"
+    ],
+    "recorded_timed_returns": 1280,
+    "recorded_resident_rows": 256
+  },
+  "dialogsum": {
+    "source_archive_sha256": "7dea7786a86c3f79b554a65ef6a63c6fccfa1c2bfc23ee3efec17d2c71c06b9d",
+    "measured_release_manifest_sha256": "92cb98256c1963601714805330d848d8eba6fad3a995b7517ab8f5ce8d739192",
+    "public_release_manifest_sha256": "b3cb2bc5e9083814c4e7bf834017c02dd1c3105df08fd94cfabc92f3cfaf28de",
+    "files_changed_for_public_entry": [
+      "START_HERE_zh.md",
+      "run_generation.py"
+    ],
+    "recorded_timed_returns": 1280,
+    "recorded_resident_rows": 256
+  }
+}

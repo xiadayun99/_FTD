@@ -1,0 +1,34 @@
+% Recomputed from the frozen formal generation traces.
+\begin{tabular}{@{}llrrrrrrr@{}}
+\toprule
+ & & Outbound & Return & \multicolumn{2}{c}{TTFT (ms)} & \multicolumn{2}{c}{End-to-end (s)} & Reserved \\
+\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+Block & Method & (ms) & (ms) & Mean & p95 & Mean & p95 & peak (GiB) \\
+\midrule
+\multicolumn{9}{@{}l}{\textbf{GSM8K}} \\
+1 & Host copy & 1093.8 & 1092.7 & 1114.6 & 1119.3 & 2.577 & 3.670 & 16.59 \\
+ & Incremental & 18.9 & 18.9 & 40.3 & 41.1 & 1.500 & 2.602 & 16.95 \\
+ & Direct & 41.3 & 41.4 & 62.8 & 63.8 & 1.525 & 2.609 & 25.98 \\
+ & Shared & 43.0 & 42.8 & 64.2 & 64.9 & 1.519 & 2.630 & 21.06 \\
+ & HF Native & 6.4 & 6.0 & 39.6 & 40.5 & 2.673 & 4.737 & 16.73 \\
+\addlinespace[2pt]
+2 & Host copy & 1116.1 & 1115.3 & 1137.2 & 1142.3 & 2.622 & 3.771 & 16.59 \\
+ & Incremental & 18.9 & 18.9 & 40.3 & 40.9 & 1.497 & 2.606 & 16.95 \\
+ & Direct & 41.3 & 41.4 & 62.8 & 63.8 & 1.537 & 2.652 & 25.98 \\
+ & Shared & 43.0 & 42.8 & 64.2 & 65.0 & 1.512 & 2.622 & 21.06 \\
+ & HF Native & 6.3 & 5.9 & 38.7 & 39.1 & 2.607 & 4.569 & 16.73 \\
+\midrule
+\multicolumn{9}{@{}l}{\textbf{DialogSum}} \\
+1 & Host copy & 1097.5 & 1095.1 & 1121.6 & 1132.9 & 1.672 & 2.117 & 16.59 \\
+ & Incremental & 18.9 & 18.9 & 44.8 & 56.2 & 0.587 & 1.036 & 16.95 \\
+ & Direct & 41.3 & 41.4 & 67.4 & 78.5 & 0.616 & 1.061 & 26.06 \\
+ & Shared & 43.0 & 42.8 & 68.8 & 80.2 & 0.618 & 1.063 & 21.15 \\
+ & HF Native & 6.2 & 5.9 & 39.9 & 47.1 & 1.006 & 1.785 & 16.76 \\
+\addlinespace[2pt]
+2 & Host copy & 1116.3 & 1115.3 & 1141.8 & 1154.5 & 1.693 & 2.137 & 16.59 \\
+ & Incremental & 18.9 & 18.9 & 44.9 & 56.2 & 0.598 & 1.062 & 16.95 \\
+ & Direct & 41.3 & 41.4 & 67.4 & 78.7 & 0.615 & 1.063 & 26.07 \\
+ & Shared & 43.1 & 42.8 & 68.8 & 80.1 & 0.617 & 1.065 & 21.16 \\
+ & HF Native & 6.2 & 5.9 & 40.3 & 47.1 & 1.026 & 1.821 & 16.76 \\
+\bottomrule
+\end{tabular}

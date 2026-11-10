@@ -1,0 +1,13 @@
+{
+  "compact_group.py": "c5fa679f68487321f19eca29bf132b6485b6c917e86b1c19c7e22751585324d3",
+  "compact_cuda_kernels.py": "317ea3e6cbb2b4873dcb5cf310a0acbb228f5e1e758875d74b0b0f62e2fe523e",
+  "request_runtime.py": "ef500d471c6ba4db13df5c7fdd7a3f4bd03250728b226b6271c75e71b1a3aca1",
+  "direct_transition.py": "0588ae49da5c8e5c4b0fd785cbc0f8389c7dd739ca85b5b7f1b9e1a0a8c5a982",
+  "engine/run_canonical_patch.py": "27564cf5d97d2b514cc04babf09d81f3fc317576d9982e9b22b0780939a89a3f",
+  "engine/cuda_patch_kernels.py": "9fd1fe6a8e7fdf5b649783302c3e2d95701e0049e021776201b38d360a982874",
+  "engine/rounding_patch.py": "e6fa8b78f91ea40bf0a45429dd365ab4cc43283dbf98e184ee1423b69c140ac0",
+  "engine/frozen/frozen_profile.py": "57f4458daaeb3cdc0e263d0a2f8f1650957f51529303c19a9dd6154a7252ee69",
+  "engine/frozen/frozen_kv_engine.py": "0101cdad4d9b887919e09d2004c6bdf7eb68556039c06dfd98ca32b5c46f18fb",
+  "engine/frozen/ftd_optimized_continuous_20261102.py": "cd4037686c01c16d162807f6be099f8d96e55a07ef80789d26ee1fe631bb7779",
+  "engine/frozen/frozen_continuous.py": "e091ef792debb959bd35be8411f07937cbd6f59e4d7dee1f59c985ecb82e2c15"
+}

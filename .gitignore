@@ -1,0 +1,12 @@
+/assets/
+/runs/
+/build/
+/classification/build/
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.safetensors
+*.safetensors.partial
+*.tar.gz
+*.zip

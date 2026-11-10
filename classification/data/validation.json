@@ -1,0 +1,49 @@
+{
+  "status": "CPU_VERIFIED_GPU_EXECUTION_PENDING",
+  "cpu_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "published_trace_reconstruction": {
+    "formal_stages": {
+      "confirmation": 50,
+      "frequency": 54
+    },
+    "formal_requests": 39936,
+    "distinct_questions": 384,
+    "zstd_units": 3780,
+    "tables_verified": [
+      "I",
+      "II",
+      "III",
+      "S7"
+    ],
+    "figure_3_pixels_equal_to_submission": true
+  },
+  "cpu_codec_vectors": {
+    "verified": true,
+    "all_uint16_codes": 65536,
+    "odd_lengths": true,
+    "exception_union": true,
+    "dense_fallback": true
+  },
+  "new_zstd_execution": {
+    "synthetic_fixture_units": 3780,
+    "round_trip_verified": true,
+    "checkpoint_resume_verified": true
+  },
+  "gpu_launcher_preflight": {
+    "original_workload_digest_verified": true,
+    "all_frequency_orders_match_archived_workloads": true,
+    "job_counts_verified": [
+      50,
+      54
+    ],
+    "altered_fixture_asset_rejected": true,
+    "source_hash_pins_verified": true
+  },
+  "clean_unzip_and_git_tracking_verified": true,
+  "cuda_smoke_executed_in_this_release_validation": false,
+  "full_8b_gpu_replay_executed_in_this_release_validation": false
+}
